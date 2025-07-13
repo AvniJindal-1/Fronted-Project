@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - CV</title>
+
+  
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+ 
+  <meta name="description" content="Curriculum Vitae of Your Name, Junior Frontend Developer skilled in HTML, CSS, JavaScript.">
+  <meta name="keywords" content="CV, resume, frontend developer, HTML, CSS, JavaScript, portfolio">
+  <meta name="author" content="Your Name">
+
+  
+  <meta property="og:title" content="Your Name - Frontend Developer CV">
+  <meta property="og:description" content="A single-page HTML CV showcasing education, skills, and work experience.">
+  <meta property="og:image" content="https://yourwebsite.com/preview.jpg"> <!-- Replace with your actual image URL -->
+  <meta property="og:url" content="https://yourwebsite.com/cv.html">
+  <meta property="og:type" content="website">
+
+  <style>
+    * {
+      padding: 10px;
+      margin: 10px;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    main.cv-container {
+      border: 2px solid black;
+      background-color: white;
+      width: 600px;
+      padding: 20px;
+    }
+
+    .green {
+      color: rgb(17, 155, 17);
+      font-style: oblique;
+      font-weight: bold;
+    }
+
+    .blue {
+      font-weight: bold;
+      color: blue;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="cv-container">
+    <header>
+      <h1>Your Name</h1>
+      <h4 class="green">Junior Frontend Developer</h4>
+      <address>
+        123 Your Street<br>
+        Your City, ST 12345<br>
+        (123) 456-789<br>
+        <a href="mailto:no_reply@gmail.com">no_reply@gmail.com</a>
+      </address>
+    </header>
+
+    <section>
+      <h2 class="green">Skills</h2>
+      <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
+    </section>
+
+    <section>
+      <h2 class="green">Education</h2>
+      <article>
+        <h3 class="blue">School Name, Location - Degree</h3>
+        <p>Month 20xx to Month 20xx</p>
+        <ul>
+          <li>List of Achievements</li>
+          <li>List of Achievements</li>
+          <li>List of Achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this institution</p>
+      </article>
+    </section>
+
+    <section>
+      <h2 class="green">Work Experience</h2>
+      <article>
+        <h3 class="blue">Company Name, Location - Job Title</h3>
+        <p>Month 20xx to Month 20xx</p>
+        <ul>
+          <li>List of Achievements</li>
+          <li>List of Achievements</li>
+          <li>List of Achievements</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer>
+      <h2 class="green">Across the Internet</h2>
+      <p>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
